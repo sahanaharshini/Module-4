@@ -28,16 +28,28 @@ To write a Python program to take the radius from the user and find the area of 
 ### PROGRAM
 
 ```
+# Reg.No-212223060236
+# Name-Sahana Harshini K
 
+import math
 
+class umbrella :
+    def rain(self, radius):
+        area = math.pi * radius * radius
+        print(f"Area of circle: {area:.2f}")
+
+radius = float(input())
+p = Pen()
+p.stationary(radius)
 
 ```
 
 ### OUTPUT
+<img width="740" height="198" alt="487587231-3972b4aa-2e8e-4989-947b-6d363a83fb97" src="https://github.com/user-attachments/assets/7bfc4bc7-af98-42b3-9139-39a5a295c864" />
 
 
 
 ### RESULT
-
+Thus the program to take the radius from the user and find the area of a circle has been implemented and executed successfully.
 
 
