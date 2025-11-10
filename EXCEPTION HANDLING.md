@@ -23,12 +23,21 @@ To create a Python program that prompts the user for a list of grades separated 
 ### PROGRAM
 
 ```
-Reg.No
-Name
-Add Your Code Here
+Reg.No-212223060236
+Name-Sahana Harshini K
+
+grades_input = input()
+grades_list = grades_input.split(',')
+try:
+    grades = [int(grade.strip()) for grade in grades_list]
+    print(grades)
+except ValueError:
+    print("Please enter only valid integers separated by commas.")
 
 ```
 
 ### OUTPUT
+<img width="819" height="151" alt="487588625-8ee70732-c5dc-468d-923e-edba9fa2f924" src="https://github.com/user-attachments/assets/ba765acf-30e7-4e0d-aeb3-97baaed78c25" />
 
 ### RESULT
+Thus the program prompts the user for a comma-separated list of grades, splits them, and handles exceptions if they can't be converted to integers has been implemented and executed successfully.
