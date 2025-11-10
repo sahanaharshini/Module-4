@@ -39,8 +39,8 @@ class umbrella :
         print(f"Area of circle: {area:.2f}")
 
 radius = float(input())
-p = Pen()
-p.stationary(radius)
+U = umbrella()
+U.rain(radius)
 
 ```
 
